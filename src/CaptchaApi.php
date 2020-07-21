@@ -115,7 +115,7 @@ class CaptchaApi
         }
 
         $hash = password_hash($key, PASSWORD_BCRYPT, ['cost' => 10]);
-        $this->cache->set('captchaApi.' . $hash, 1, $this->expire);
+        $this->cache->set('captchaApi.' . $hash, $key, $this->expire);
 
         return [
             'value' => $bag,
