@@ -3,7 +3,7 @@
 thinkphp6 验证码类库,支持base64
 
 ## 安装
-> composer require edward1108/edward-redis
+> composer require edward1108/edward-captcha
 
 ## 前后端分离中使用
 ###### 生成短信验证码
