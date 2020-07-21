@@ -1,6 +1,6 @@
 {
-  "name": "edward/thinkphp6-captcha",
-  "description": "think6验证码(图片、短信)支持base64api友好化",
+  "name": "edward1108/edward-captcha",
+  "description": "ThinkPHP6验证码(图片、短信)支持api友好化",
   "authors": [
     {
       "name": "edward",
@@ -11,6 +11,7 @@
   "require": {
     "topthink/framework": "^6.0.0"
   },
+  "homepage": "https://github.com/Edward1108/edward-captcha",
   "autoload": {
     "psr-4": {
       "edward\\captcha\\": "src/"
