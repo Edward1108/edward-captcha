@@ -7,11 +7,12 @@
       "email": "xuyuanhua1987@163.com"
     }
   ],
-  "license": "Apache-2.0",
   "require": {
+    "php": ">=5.6.0",
     "topthink/framework": "^6.0.0"
   },
   "homepage": "https://github.com/Edward1108/edward-captcha",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "edward\\captcha\\": "src/"
