@@ -1,0 +1,32 @@
+{
+  "name": "edward/thinkphp6-captcha",
+  "description": "think6验证码(图片、短信)支持base64api友好化",
+  "authors": [
+    {
+      "name": "edward",
+      "email": "xuyuanhua1987@163.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "require": {
+    "topthink/framework": "^6.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "edward\\captcha\\": "src/"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  },
+  "extra": {
+    "think": {
+      "services": [
+        "edward\\captcha\\CaptchaService"
+      ],
+      "config": {
+        "captcha": "src/config.php"
+      }
+    }
+  }
+}
