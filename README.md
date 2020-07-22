@@ -24,7 +24,7 @@ $data = CaptchaApi::create();
     "code": "20"
 }
 	
-base64: 图片base64地址
+base64: 图片base64地址。前端获取该base64信息后需替换\r\n为空字符串。
 key: 用于前端提交验证
 md5: 验证码端md5值，用于前端自我验证先，验证通过再请求发送 验证码和key到后台进行验证
 code: 验证码值，方便用于postman测试和自动化测试，切记正式上线，记得返回api是进行unset() 掉该值，避免被别人利用
