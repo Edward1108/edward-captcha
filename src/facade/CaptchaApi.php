@@ -7,7 +7,7 @@ use think\Facade;
 /**
  * Class Captcha
  * @package edward\captcha\facade
- * @mixin \edward\captcha\Captcha
+ * @mixin \edward\captcha\CaptchaApi
  */
 class CaptchaApi extends Facade
 {
