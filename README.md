@@ -1,6 +1,7 @@
 # edward-captcha
 
-thinkphp6 验证码类库,支持base64
+## 说明
+ThinkPHP6 验证码类库，支持H5和API接口下使用。如果项目有安装官方的topthink/think-captcha，请先卸载，卸载请执行：`composer remove topthink/think-captcha`，然后再安装此包。
 
 ## 安装
 > composer require edward1108/edward-captcha
